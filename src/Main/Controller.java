@@ -11,7 +11,9 @@ import Map.Map;
  */
 public class Controller {
 
-    /**
+    private static Controller instance = new Controller();
+
+	/**
      * Default constructor
      */
     public Controller() {
@@ -48,5 +50,9 @@ public class Controller {
     public void generateWorld() {
         // TODO implement here
     }
+
+	public static Controller getInstance() {
+		return instance ;
+	}
 
 }

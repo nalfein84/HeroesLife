@@ -12,11 +12,13 @@ import javax.swing.JPanel;
 public abstract class Menu extends PanelFond {
 
 	private static final long serialVersionUID = 72960348400323678L;
-	JButton accpet, annuler;
-	JLabel titre;
+	private JButton accpet, annuler;
+	private JLabel titre;
+	protected MyFrame frame;
 	
-	public Menu(String nom, String accepter, String annuler, ImageIcon imgIco) {
+	public Menu(String nom, String accepter, String annuler, ImageIcon imgIco, MyFrame frame) {
 		super(imgIco);
+		this.frame = frame;
 		titre = new JLabel(nom);
 		accpet = new JButton(accepter);
 		this.annuler = new JButton(annuler);

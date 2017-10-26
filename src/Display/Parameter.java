@@ -13,8 +13,8 @@ public class Parameter extends Menu {
     /**
      * Default constructor
      */
-    public Parameter() {
-    	super("Parameter", "Done", "Return", new ImageIcon());
+    public Parameter(MyFrame frame) {
+    	super("Parameter", "Done", "Return", new ImageIcon(), frame);
     }
 
 	@Override
@@ -25,14 +25,13 @@ public class Parameter extends Menu {
 
 	@Override
 	protected void doOnAnnuler() {
-		// TODO Auto-generated method stub
-		
+		frame.changeToMainMenu();
 	}
 
 	@Override
 	protected void doOnAccept() {
 		// TODO Auto-generated method stub
-		
+		frame.changeToMainMenu();
 	}
 
 

@@ -14,8 +14,8 @@ public class CreateCharac extends Menu {
     /**
      * Default constructor
      */
-    public CreateCharac() {
-    	super("New Character", "Create Character", "Return", new ImageIcon());
+    public CreateCharac(MyFrame frame) {
+    	super("New Character", "Create Character", "Return", new ImageIcon(), frame);
     }
 
 	@Override
@@ -26,14 +26,13 @@ public class CreateCharac extends Menu {
 
 	@Override
 	protected void doOnAnnuler() {
-		// TODO Auto-generated method stub
-		
+		this.frame.changeToMainMenu();
 	}
 
 	@Override
 	protected void doOnAccept() {
 		// TODO Auto-generated method stub
-		
+		this.frame.changeToMainMenu();
 	}
 
 

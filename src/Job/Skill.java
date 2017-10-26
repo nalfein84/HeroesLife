@@ -15,13 +15,10 @@ public class Skill {
     public Skill() {
     }
 
-
-
-
     /**
      * 
      */
-    private Set<Effect> effect;
+    private List<Effect> effect;
 
     /**
      * 
