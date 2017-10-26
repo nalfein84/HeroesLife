@@ -3,6 +3,7 @@ package Display;
 import java.util.*;
 
 import javax.swing.JPanel;
+import javax.swing.ImageIcon;
 
 /**
  * 
@@ -13,6 +14,7 @@ public class NewGame extends Menu {
      * Default constructor
      */
     public NewGame() {
+    	super("New Game", "Create World", "Return", new ImageIcon());
     }
 
 	@Override

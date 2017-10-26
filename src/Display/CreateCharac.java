@@ -2,6 +2,7 @@ package Display;
 
 import java.util.*;
 
+import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 
@@ -14,6 +15,7 @@ public class CreateCharac extends Menu {
      * Default constructor
      */
     public CreateCharac() {
+    	super("New Character", "Create Character", "Return", new ImageIcon());
     }
 
 	@Override

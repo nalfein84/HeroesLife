@@ -2,6 +2,9 @@ package Entity;
 
 import java.util.*;
 
+import Object.Equipable;
+import Object.Invetory;
+
 /**
  * 
  */
@@ -33,7 +36,7 @@ public class Player extends Fighter {
     /**
      * @param Equipable e
      */
-    public void equip(void Equipable e) {
+    public void equip(Equipable e) {
         // TODO implement here
     }
 

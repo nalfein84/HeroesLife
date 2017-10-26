@@ -2,6 +2,8 @@ package Job;
 
 import java.util.*;
 
+import Effect.Effect;
+
 /**
  * 
  */

@@ -1,5 +1,7 @@
+package Effect;
 
 import java.util.*;
+import Entity.Fighter;
 
 /**
  * 
@@ -18,6 +20,6 @@ public abstract class Effect {
     /**
      * @param Fighter fighter
      */
-    public abstract void apply(void Fighter fighter);
+    public abstract void apply(Fighter fighter);
 
 }
